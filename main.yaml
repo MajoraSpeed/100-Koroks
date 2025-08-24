@@ -1,0 +1,206 @@
+- Route 100 Koroks créé par moi Majora_Speed et j'ai utilisé la route des inter de Akawoomy, Anthony DinoTech et d'autres dont j'ai pas les noms
+- Route conçu pour la 1.0.0 
+- Timer fini après avoir fini la text box de la noix
+
+- Great Sky Island 1:
+  - _Korok::GSI15:
+     notes: Faire CSS prendre le chest dup 22 wing puis aller au title vers Ascend
+  - Title:
+     icon: zelda
+     movements:
+      - [379.8125,15000,-1690.4375]
+  - Temple Of Time:
+     notes: Wing FLip et faire Early Sheild sans péter l'épée de légende et scan ToT
+     comment: Faire un comme en Any% pour la rusty
+     icon: shrine
+     movements: 
+      - [429.125,1500,-1684.25]
+      - [384.5,1500,-1438]
+      - [417,1500,-1354]
+      - [452.5625,1500,-1310.25]
+      - [452.75,1500,-884.0625]
+  # Warping to travel medallion. Order of the coordinates are the same as you would enter with the `coord` property
+  - _Warp::TravelMedallion<429.125,1500,-1684.25>:
+     comment: je mets travel médaillon pour le respawn pour FDC EA
+  - _Shrine::Gutanbac:
+     icon: Ascend
+     notes: une fois dans le shrine on lance la rusty on recup la rusty on kill Billy et QDS puis finish Ascend
+  - _Korok::GSI06:
+     notes: Aller chercher le korok en haut
+  - _Korok::GSI13:
+     notes: Aller en wing au korok
+     movements:
+       - [733.8125,1500,-1351.4375]
+       - [706,1500,-1351]
+       - [229.47, 1511.43, -1643.75]
+  - _Korok::GSI11:
+     notes: ASF vers le shrine
+  - _Shrine::Inisa:
+     icon: Fuse
+     movements:
+      - [26.07, 1527.75, -1503.60]
+     notes: Faire EB version EA puis enter fuse et finish fuse
+     comment: Dans fuse recup espadon et dup 15 bombs et dup 4 sheild
+  - _Shrine::Ukouh:
+     icon: UH
+     notes: Quick FUH/Roms FUH et prendre Skew à la fin de UH 
+  - _Korok::GSI01:
+     notes: Aller vers le Korok
+  - Temple Of Time 2: 
+     movements: 
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+     icon: shrine
+     notes: ToT  puis tp Recall
+  - _Warp::TravelMedallion<366,1500,-1750.875>
+  - _Shrine::Nachoyah:
+     icon: RECALL
+     notes: Fuse bomb et finir recall
+     movements: 
+      - [367.4375,1500,-1750.5]
+      - [389.63, 2417.91, -1661.45]
+  - _Korok::GSI07:
+     notes: ASF apres avoir use une wing
+  - _Korok::GSI08:
+     notes: FDC via ASF uis TP UH
+  - _Warp::Shrine::Ukouh
+  - Great Sky Island:
+     icon: TOUR
+     movements:
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [453.625,1500,-635.75]
+     notes: Avant de TP prendre la large zonai charge 
+- Stuff:
+  - Infint Pocket Rocket:
+     notes: A la fin du GSI aller chercher les rocket du AD et setup IPR comme le AD puis Zuggle 3 arcs pour etre foule dans l'inv et faire un QDS 
+     comment: Setup IPR comme en AD .link([Tuto fait par moi si besoin]https://youtu.be/H8vxZMt-RYY?si=3OHYEXVRvvlENzCl) puis dup 30 fées et 15 zonais charges
+     icon: IPR
+     color: red
+     movements:
+      - [886.4375,150,-543.5]
+- Lookout Landing 1:
+  - _Korok::LL62:
+     color: purple
+  - _Korok::LL58
+  - _Korok::LL53:
+     notes: Acorn in a Hole sur OBJ Map
+  - _Korok::LL54
+  - Paraglider Quest:
+     coord: [-253.5,150,150.3125]
+     icon: quest
+     notes: Parler a Pruha pour la quest
+  - _Korok::LL42
+  - _Korok::LL41
+  - _Korok::LL37
+  - _Shrine::Kyononis:
+     notes: Scan le shrine pour la tp
+  - _Korok::LL30
+  - _Korok::LL26:
+     notes: Grab Arrow sur le balcon
+  - _Korok::LL22
+  - _Korok::LL21
+  - Paraglider Quest 2:
+     notes: Parler a Hoz pour la quete 
+     icon: quest
+     movements: 
+      - [-340,150,847.5]
+  - _Korok::LL20
+  - _Korok::LL16
+  - _Korok::LL10
+  - _Korok::LL03:
+     movements:
+      - [-325.9375,150,1140.6875]
+      - [-297.47, 119.08, 1119.18]
+  - _Warp::Shrine::Kyononis:
+     notes: Zuggle le sheild avant de tp
+- Lookout Landing/Hyrule Feilds:
+  - Paraglider Quest 3:
+     notes: Parler a Pruha pour Paraglider
+     movements:
+      - [-253,150,151.5]
+      - [-299.5,150,144.5]
+     icon: quest
+  - _Korok::LL43:
+     notes: A partir de maintenant combiner IPR avec paraglider et ASF
+  - _Korok::LL44
+  - _Korok::LL48
+  - _Korok::LL47
+  - _Korok::LL50
+  - _Korok::LL56
+  - _Korok::HF07
+  - _Korok::LL60
+  - _Korok::HF13
+  - _Korok::HF28
+  - _Korok::HF31
+  - _Korok::HF32
+  - _Korok::HF39
+  - _Korok::HF42
+  - _Korok::HF54
+  - _Korok::HF65
+  - _Korok::HF64
+  - _Korok::HF60
+  - _Korok::HF57
+  - _Korok::HF52
+  - _Korok::HF47
+  - _Korok::HF37
+  - _Korok::HF34
+  - _Korok::HF35
+  - _Korok::HF41
+  - _Korok::HF46
+  - _Korok::HF51
+  - _Korok::HF56
+  - _Korok::HF44
+  - _Korok::HF40
+  - _Korok::HF36
+  - _Korok::HF33
+  - _Korok::HF26
+  - _Korok::HF20
+  - _Korok::HF19
+  - _Korok::HF14
+  - _Korok::HF24
+  - _Korok::HF29
+  - _Korok::HF30
+  - _Korok::HF27
+  - _Korok::HF18
+  - _Korok::HF16
+  - _Korok::HF11
+  - _Korok::HF02
+  - _Korok::HF04
+  - _Korok::HF03
+  - _Korok::HF08
+  - _Korok::HF09
+  - _Korok::HF12
+  - _Korok::HF06
+  - _Korok::LB61
+  - _Warp::Shrine::Gutanbac:
+     notes: Zuggle sheild avant tp
+- Popla Foothills:
+  - _Korok::PF05
+  - _Korok::PF04
+  - _Korok::PF02
+  - _Korok::SS39
+  - _Korok::PF01
+  - _Korok::PF08
+  - _Korok::PF07
+  - _Korok::PF11
+  - _Korok::PF09
+  - _Korok::PF10
+  - _Korok::HF48
+  - _Korok::PF13
+  - _Korok::PF15
+  - _Korok::PF16
+  - _Korok::PF18
+  - _Korok::PF20
+  - _Korok::PF21
+  - _Korok::PF26
+  - _Korok::PF23
+  - _Korok::HF69
+  - _Korok::HF75
+  - _Korok::HF70
+  - _Korok::HF66
+  - _Korok::HF61
+  - _Korok::HF59
+  - _Korok::PF19
+  - _Korok::HF53  
+  
