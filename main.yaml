@@ -99,7 +99,6 @@
   - _Korok::LL26:
      notes: Grab Arrow sur le balcon
   - _Korok::LL22
-  - _Korok::LL21
   - Paraglider Quest 2:
      notes: Parler a Hoz pour la quete 
      icon: quest
@@ -108,6 +107,7 @@
   - _Korok::LL20
   - _Korok::LL16
   - _Korok::LL10
+  - _Korok::LL09
   - _Korok::LL03:
      movements:
       - [-325.9375,150,1140.6875]
@@ -203,4 +203,5 @@
   - _Korok::HF59
   - _Korok::PF19
   - _Korok::HF53  
+
   
