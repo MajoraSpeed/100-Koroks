@@ -126,7 +126,7 @@
   - _Korok::LL48
   - _Korok::LL47
   - _Korok::LL50:
-    notes: Lancer des bombs si besoin sur les ballons
+     notes: Lancer des bombs si besoin sur les ballons
   - _Korok::LL56
   - _Korok::HF07
   - _Korok::LL60
@@ -143,17 +143,17 @@
   - _Korok::HF57
   - _Korok::HF52
   - _Korok::HF47:
-    notes: Lancer des bombs si besoins
+     notes: Lancer des bombs si besoins
   - _Korok::HF37
   - _Korok::HF34
   - _Korok::HF35
   - _Korok::HF41
   - _Korok::HF46:
-    notets: Tirer une flèche ou slash le ballon
+     notets: Tirer une flèche ou slash le ballon
   - _Korok::HF51
   - _Korok::HF56
   - _Korok::HF44:
-    notes: Flèches ou Bombs ou slash
+     notes: Flèches ou Bombs ou slash
   - _Korok::HF40
   - _Korok::HF36
   - _Korok::HF33
