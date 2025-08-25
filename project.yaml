@@ -1,6 +1,6 @@
 title: 100 Koroks v1.0.0
 
-version: 1.0
+version: 1.2.0
 
 route:
   use: ./main.yaml
