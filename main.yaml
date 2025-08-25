@@ -117,6 +117,7 @@
 - Lookout Landing/Hyrule Feilds:
   - Paraglider Quest 3:
      notes: Parler a Pruha pour Paraglider
+     color: orange
      movements:
       - [-253,150,151.5]
       - [-299.5,150,144.5]
@@ -176,7 +177,8 @@
   - _Warp::Shrine::Gutanbac:
      notes: Zuggle sheild avant tp
 - Popla Foothills:
-  - _Korok::PF05
+  - _Korok::PF05:
+     color: green
   - _Korok::PF04
   - _Korok::PF02
   - _Korok::SS39

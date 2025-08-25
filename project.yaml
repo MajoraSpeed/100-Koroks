@@ -1,6 +1,6 @@
 title: 100 Koroks v1.0.0
 
-version: 1.1.1
+version: 1.0
 
 route:
   use: ./main.yaml
@@ -80,5 +80,4 @@ config:
 - plugins:
   - use: link
   - use: split-format
-
   - use: variables
