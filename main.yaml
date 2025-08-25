@@ -10,8 +10,8 @@
      movements:
       - [379.8125,15000,-1690.4375]
   - Temple Of Time:
-     notes: Wing FLip et faire Early Sheild sans péter l'épée de légende et scan ToT
-     comment: Faire un comme en Any% pour la rusty
+     notes: Wing FLip et faire Early Sheild en pétant l'épée de légende et scan ToT
+     comment: Récuper sur le chemin plusieurs branche d'arbres qui pourront servire pour des Arcon tree ou des ballon
      icon: shrine
      movements: 
       - [429.125,1500,-1684.25]
@@ -24,7 +24,7 @@
      comment: je mets travel médaillon pour le respawn pour FDC EA
   - _Shrine::Gutanbac:
      icon: Ascend
-     notes: une fois dans le shrine on lance la rusty on recup la rusty on kill Billy et QDS puis finish Ascend
+     notes: Kill Billy et QDS puis finish Ascend
   - _Korok::GSI06:
      notes: Aller chercher le korok en haut
   - _Korok::GSI13:
@@ -40,10 +40,10 @@
      movements:
       - [26.07, 1527.75, -1503.60]
      notes: Faire EB version EA puis enter fuse et finish fuse
-     comment: Dans fuse recup espadon et dup 15 bombs et dup 4 sheild
+     comment: Dans fuse dup 20 bombs et dup 1 sheild
   - _Shrine::Ukouh:
      icon: UH
-     notes: Quick FUH/Roms FUH et prendre Skew à la fin de UH 
+     notes: Quick FUH/Roms FUH 
   - _Korok::GSI01:
      notes: Aller vers le Korok
   - Temple Of Time 2: 
@@ -62,7 +62,7 @@
   - _Korok::GSI07:
      notes: ASF apres avoir use une wing
   - _Korok::GSI08:
-     notes: FDC via ASF uis TP UH
+     notes: FDC via ASF puis TP UH
   - _Warp::Shrine::Ukouh
   - Great Sky Island:
      icon: TOUR
@@ -70,11 +70,10 @@
       - [452.75,1500,-884.0625]
       - [453,1500,-743.5]
       - [453.625,1500,-635.75]
-     notes: Avant de TP prendre la large zonai charge 
 - Stuff:
   - Infint Pocket Rocket:
-     notes: A la fin du GSI aller chercher les rocket du AD et setup IPR comme le AD puis Zuggle 3 arcs pour etre foule dans l'inv et faire un QDS 
-     comment: Setup IPR comme en AD .link([Tuto fait par moi si besoin]https://youtu.be/H8vxZMt-RYY?si=3OHYEXVRvvlENzCl) puis dup 30 fées et 15 zonais charges
+     notes: A la fin du GSI aller chercher les rocket du AD et setup IPR comme le AD puis Zuggle 3 arcs ou les dups comme a Fuse pour etre foule dans l'inv et faire un Recall AS
+     comment: Setup IPR comme en AD .link([Tuto fait par moi si besoin]https://youtu.be/H8vxZMt-RYY?si=3OHYEXVRvvlENzCl) 
      icon: IPR
      color: red
      movements:
@@ -83,8 +82,7 @@
   - _Korok::LL62:
      color: purple
   - _Korok::LL58
-  - _Korok::LL53:
-     notes: Acorn in a Hole sur OBJ Map
+  - _Korok::LL53
   - _Korok::LL54
   - Paraglider Quest:
      coord: [-253.5,150,150.3125]
@@ -127,7 +125,8 @@
   - _Korok::LL44
   - _Korok::LL48
   - _Korok::LL47
-  - _Korok::LL50
+  - _Korok::LL50:
+    notes: Lancer des bombs si besoin sur les ballons
   - _Korok::LL56
   - _Korok::HF07
   - _Korok::LL60
@@ -143,15 +142,18 @@
   - _Korok::HF60
   - _Korok::HF57
   - _Korok::HF52
-  - _Korok::HF47
+  - _Korok::HF47:
+    notes: Lancer des bombs si besoins
   - _Korok::HF37
   - _Korok::HF34
   - _Korok::HF35
   - _Korok::HF41
-  - _Korok::HF46
+  - _Korok::HF46:
+    notets: Tirer une flèche ou slash le ballon
   - _Korok::HF51
   - _Korok::HF56
-  - _Korok::HF44
+  - _Korok::HF44:
+    notes: Flèches ou Bombs ou slash
   - _Korok::HF40
   - _Korok::HF36
   - _Korok::HF33
